@@ -2,8 +2,11 @@
 * 课程主页：https://longbiaochen.com/courses/scad/
 
 
-#### 内容
-* 设计模式：
+#### 主要内容
+* 设计模式：https://github.com/longbiaochen/scad/tree/master/design-patterns
+* 面向对象架构
+* 面向服务架构
+
 
 ## 致谢
 * 刘伟, 《设计模式》: http://product.dangdang.com/25582002.html
