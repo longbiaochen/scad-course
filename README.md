@@ -1,5 +1,8 @@
 ## 《软件体系结构与应用开发》课程示例代码
 * 课程主页：https://longbiaochen.com/courses/scad/
+* 教师主页：https://longbiaochen.com/chinese.html
+* 厦门大学：https://www.xmu.edu.cn
+* 福建省智慧城市感知与计算重点实验室：http://scsc.xmu.edu.cn
 
 
 ### 主要内容
