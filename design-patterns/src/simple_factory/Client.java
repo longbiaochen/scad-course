@@ -1,4 +1,4 @@
-package simple_factory.tv_factory;
+package simple_factory;
 
 public class Client
 {
@@ -7,8 +7,7 @@ public class Client
          try
          {
          	TV tv;
-         	String brandName = XMLUtilTV.getBrandName(); // TCL
-//         	String brandName = "Haier";
+         	String brandName = XMLUtilTV.getBrandName();
          	tv=TVFactory.produceTV(brandName);
          	tv.play();
          }

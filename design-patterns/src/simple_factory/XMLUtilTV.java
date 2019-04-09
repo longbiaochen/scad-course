@@ -1,4 +1,4 @@
-package simple_factory.tv_factory;
+package simple_factory;
 
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
@@ -14,7 +14,7 @@ public class XMLUtilTV
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;							
-			doc = builder.parse(new File("src/simple_factory/tv_factory/configTV.xml")); 
+			doc = builder.parse(new File("src/simple_factory/configTV.xml")); 
 		
 			//获取包含品牌名称的文本节点
 			NodeList nl = doc.getElementsByTagName("brandName");

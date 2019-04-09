@@ -1,4 +1,4 @@
-package simple_factory.tv_factory;
+package simple_factory;
 
 public class HaierTV implements TV
 {
