@@ -6,9 +6,10 @@ public class Client
 	{
          try
          {
+          	TVFactory factory;
          	TV tv;
-         	TVFactory factory;
-         	factory=(TVFactory)XMLUtil.getBean();
+
+         	factory=(TVFactory) XMLUtil.getBean();
          	tv=factory.produceTV();
          	tv.play();
          }
