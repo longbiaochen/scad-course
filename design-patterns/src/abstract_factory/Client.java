@@ -9,6 +9,7 @@ public class Client
          	EFactory factory;
          	Television tv;
          	AirConditioner ac;
+         	
          	factory=(EFactory)XMLUtil.getBean();
          	tv=factory.produceTelevision();
          	tv.play();
