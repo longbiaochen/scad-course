@@ -5,7 +5,7 @@
 * 福建省智慧城市感知与计算重点实验室：http://scsc.xmu.edu.cn
 
 
-### 主要内容
+## 主要内容
 * 设计模式：https://github.com/longbiaochen/scad/tree/master/design-patterns
 * 面向对象架构
 * 面向服务架构
