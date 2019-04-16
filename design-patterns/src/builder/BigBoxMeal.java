@@ -1,6 +1,6 @@
 package builder;
 
-public class BixBoxMeal extends MealBuilder
+public class BigBoxMeal extends MealBuilder
 {
 	public void buildFood()
 	{
@@ -8,6 +8,6 @@ public class BixBoxMeal extends MealBuilder
 	}
 	public void buildDrink()
 	{
-	    meal.setDrink("1±≠ø…¿÷");
+	    meal.setDrink("1±≠¥Ûø…¿÷");
 	}
 }

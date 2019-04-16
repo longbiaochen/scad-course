@@ -1,4 +1,4 @@
-package builder;
+package adapter;
 
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
@@ -15,7 +15,7 @@ public class XMLUtil
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;							
-			doc = builder.parse(new File("src/builder/config.xml")); 
+			doc = builder.parse(new File("src/adapter/config.xml")); 
 		
 			//获取包含类名的文本节点
 			NodeList nl = doc.getElementsByTagName("className");
@@ -23,8 +23,7 @@ public class XMLUtil
             String cName=classNode.getNodeValue();
             
             //通过类名生成实例对象并将其返回
-            System.out.println("您点的是："+cName);
-            Class<?> c=Class.forName("builder."+cName);
+            Class<?> c=Class.forName("adapter." + cName);
 	  	    Object obj=c.newInstance();
             return obj;
            }   

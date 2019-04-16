@@ -13,7 +13,6 @@ public class Client
 	    //客户获得套餐
 	    Meal meal=waiter.construct();
         
-	    System.out.println("套餐组成：");
         System.out.println("套餐组成：");
         System.out.println(meal.getFood());
         System.out.println(meal.getDrink());
