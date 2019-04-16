@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <config>
-	<className>DogAdapter</className>
+	<className>BirdAdapter</className>
 </config>
