@@ -15,8 +15,9 @@ public class Plate extends MyElement {
     }
 
     public void eat() {
-	for (Object object : list) {
-	    ((MyElement) object).eat();
+	System.out.println("³ÔÅÌ×Ó£¡£¡£¡£¡£¡£¡");
+	for (MyElement ele : list) {
+	    ele.eat();
 	}
     }
 }

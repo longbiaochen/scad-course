@@ -1,28 +1,28 @@
 package composite;
 
 public class Client {
-	public static void main(String a[]) {
-		MyElement obj1, obj2, obj3, obj4, obj5;
-		Plate plate1, plate2, plate3;
+    public static void main(String a[]) {
+	MyElement fruit1, fruit2, fruit3, fruit4, fruit5;
+	Plate plate1, plate2, plate3;
 
-		obj1 = new Apple();
-		obj2 = new Pear();
-		plate1 = new Plate();
-		plate1.add(obj1);
-		plate1.add(obj2);
+	fruit1 = new Apple();
+	fruit2 = new Pear();
+	plate1 = new Plate();
+	plate1.add(fruit1);
+	plate1.add(fruit2);
 
-		obj3 = new Banana();
-		obj4 = new Banana();
-		plate2 = new Plate();
-		plate2.add(obj3);
-		plate2.add(obj4);
+	fruit3 = new Banana();
+	fruit4 = new Banana();
+	plate2 = new Plate();
+	plate2.add(fruit3);
+	plate2.add(fruit4);
 
-		obj5 = new Apple();
-		plate3 = new Plate();
-		plate3.add(plate1);
-		plate3.add(plate2);
-		plate3.add(obj5);
+	fruit5 = new Apple();
+	plate3 = new Plate();
+	plate3.add(plate1);
+	plate3.add(plate2);
+	plate3.add(fruit5);
 
-		plate1.eat();
-	}
+	plate3.eat();
+    }
 }
