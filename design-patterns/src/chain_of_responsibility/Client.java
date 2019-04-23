@@ -2,16 +2,8 @@ package chain_of_responsibility;
 
 public class Client {
     public static void main(String args[]) {
-	Leader objDirector, objManager, objGeneralManager, objViceGeneralManager;
 
-	objDirector = new Director("Tony老师");
-	objManager = new Manager("Mary老师");
-	objGeneralManager = new GeneralManager("William老师");
-	objViceGeneralManager = new ViceGeneralManager("Grace老师");
-
-	objDirector.setSuccessor(objManager);
-	objManager.setSuccessor(objViceGeneralManager);
-	objViceGeneralManager.setSuccessor(objGeneralManager);
+	Leader objDirector = Leader.connect();
 
 	LeaveRequest lr1 = new LeaveRequest("于小谦", 2);
 	objDirector.handleRequest(lr1);
