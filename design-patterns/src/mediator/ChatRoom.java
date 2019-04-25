@@ -5,6 +5,7 @@ import java.util.Hashtable;
 public class ChatRoom extends AbstractChatroom {
     private Hashtable<String, Member> members = new Hashtable<String, Member>();
 
+    @Override
     public void register(Member member) {
 	if (!members.contains(member)) {
 	    members.put(member.getName(), member);
@@ -12,8 +13,9 @@ public class ChatRoom extends AbstractChatroom {
 	}
     }
 
+    @Override
     public void sendText(String from, String to, String message) {
-	Member member = (Member) members.get(to);
+	Member member = members.get(to);
 	if (canSend(from, to)) {
 	    String newMessage = message;
 	    newMessage = message.replaceAll("707", "***");
@@ -26,8 +28,8 @@ public class ChatRoom extends AbstractChatroom {
     }
 
     public boolean canSend(String from, String to) {
-	Member fromMember = (Member) members.get(from);
-	Member toMember = (Member) members.get(to);
+	Member fromMember = members.get(from);
+	Member toMember = members.get(to);
 
 	return !((fromMember instanceof CommonMember) && (toMember instanceof DiamondMember));
 

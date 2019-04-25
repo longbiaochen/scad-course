@@ -14,6 +14,7 @@ public class Plate extends MyElement {
 	list.remove(element);
     }
 
+    @Override
     public void eat() {
 	System.out.println("³ÔÅÌ×Ó£¡£¡£¡£¡£¡£¡");
 	for (MyElement ele : list) {

@@ -7,6 +7,7 @@ public class Changer implements Transform {
 	this.transform = transform;
     }
 
+    @Override
     public void move() {
 	transform.move();
     }

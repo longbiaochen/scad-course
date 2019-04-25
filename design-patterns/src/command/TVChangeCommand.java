@@ -7,6 +7,7 @@ public class TVChangeCommand implements AbstractCommand {
 	tv = new Television();
     }
 
+    @Override
     public void execute() {
 	tv.changeChannel();
     }

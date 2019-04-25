@@ -5,6 +5,7 @@ public class GeneralManager extends Leader {
 	super(name);
     }
 
+    @Override
     public void handleRequest(LeaveRequest request) {
 	if (request.getLeaveDays() < 30) {
 	    System.out.println(

@@ -1,10 +1,9 @@
 package bridge;
 
-public class SmallPen extends Pen
-{
-	public void draw(String name)
-	{
-		String penType="Ğ¡ºÅÃ«±Ê»æÖÆ";
-		this.color.bepaint(penType,name);			
-	}	
+public class SmallPen extends Pen {
+    @Override
+    public void draw(String name) {
+	String penType = "Ğ¡ºÅÃ«±Ê»æÖÆ";
+	this.color.bepaint(penType, name);
+    }
 }

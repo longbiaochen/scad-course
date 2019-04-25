@@ -23,7 +23,7 @@ public class Calculator {
 		right = new ValueNode(val);
 		stack.push(new DivNode(left, right));
 	    } else if (statementArr[i].equalsIgnoreCase("%")) {
-		left = (Node) stack.pop();
+		left = stack.pop();
 		int val = Integer.parseInt(statementArr[++i]);
 		right = new ValueNode(val);
 		stack.push(new ModNode(left, right));

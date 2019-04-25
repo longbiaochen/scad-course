@@ -7,6 +7,7 @@ public class TVCloseCommand implements AbstractCommand {
 	tv = new Television();
     }
 
+    @Override
     public void execute() {
 	tv.close();
     }

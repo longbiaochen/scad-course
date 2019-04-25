@@ -1,6 +1,5 @@
 package factory_method;
 
-public interface TVFactory
-{
+public interface TVFactory {
     public TV produceTV();
 }
