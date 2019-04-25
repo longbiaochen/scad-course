@@ -9,7 +9,7 @@ public class Manager extends Leader {
     public void handleRequest(LeaveRequest request) {
 	if (request.getLeaveDays() < 10) {
 	    System.out.println(
-		    "总监 " + name + " 审批员工 " + request.getLeaveName() + " 的请假条，请假天数为 " + request.getLeaveDays() + " 天。");
+		    "总监 " + name + " 为 " + request.getLeaveName() + " 做发型设计，消费 " + request.getLeaveDays() + " 万元。");
 	} else {
 	    if (this.successor != null) {
 		this.successor.handleRequest(request);

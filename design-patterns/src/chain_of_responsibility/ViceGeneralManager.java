@@ -8,8 +8,8 @@ public class ViceGeneralManager extends Leader {
     @Override
     public void handleRequest(LeaveRequest request) {
 	if (request.getLeaveDays() < 20) {
-	    System.out.println("副总监 " + name + " 审批员工 " + request.getLeaveName() + " 的请假条，请假天数为 "
-		    + request.getLeaveDays() + " 天。");
+	    System.out.println(
+		    "副总监 " + name + " 为 " + request.getLeaveName() + " 发型设计，消费 " + request.getLeaveDays() + " 万元。");
 	} else {
 	    if (this.successor != null) {
 		this.successor.handleRequest(request);
