@@ -1,0 +1,13 @@
+body {
+    color: #CCCCCC;
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 2em;
+    padding: 0 0 0 1em;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: #d13108;
+    text-decoration: none;
+    font-weight: bold;
+}
