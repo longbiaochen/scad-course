@@ -13,9 +13,9 @@ public class Client {
 	subject.attach(obs2);
 	subject.attach(obs3);
 
-//	MyObserver obs4;
-//	obs4 = new Pig();
-//	subject.attach(obs4);
+	MyObserver obs4;
+	obs4 = new Pig();
+	subject.attach(obs4);
 
 	subject.cry();
     }
