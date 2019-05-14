@@ -8,7 +8,7 @@
 ## 主要内容
 * 设计模式：https://github.com/longbiaochen/scad/tree/master/design-patterns
 * 面向对象的架构：页面小游戏设计：https://github.com/longbiaochen/scad/tree/master/object-oriented
-* 面向服务的架构
+* 面向资源的架构：RSS聚合系统设计：https://github.com/longbiaochen/scad/tree/master/resource-oriented
 
 
 ## 致谢
