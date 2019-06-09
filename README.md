@@ -13,7 +13,7 @@
 * 第一组：AlgoViz - 算法可视化平台：https://github.com/WwZzz/AlgorithmVisuable
 * 第四组：基于eCharts的大规模车辆轨迹可视化: https://github.com/Sonwi/DataVisual
 * 第二组：名车抠图器：https://github.com/MchZys/XMU-Software-Modeling-and-Design
-* 导师组：MacOS窗口快速切换器：https://github.com/longbiaochen/dock-switch
+* 导师组：MacOS窗口光速切换器：https://github.com/longbiaochen/dock-switch
 
 
 ## 课程信息
