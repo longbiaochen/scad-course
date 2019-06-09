@@ -12,7 +12,8 @@
 * 第六组：拆字2048小游戏：https://github.com/whysosis/work
 * 第一组：AlgoViz - 算法可视化平台：https://github.com/WwZzz/AlgorithmVisuable
 * 第四组：基于eCharts的大规模车辆轨迹可视化: https://github.com/Sonwi/DataVisual
-* 第二组：基于深度学习的图像识别 https://github.com/MchZys/XMU-Software-Modeling-and-Design
+* 第二组：名车抠图器：https://github.com/MchZys/XMU-Software-Modeling-and-Design
+* 导师组：MacOS窗口快速切换器：https://github.com/longbiaochen/dock-switch
 
 
 ## 课程信息
@@ -20,8 +21,6 @@
 * 教师主页：https://longbiaochen.com/chinese.html
 * 厦门大学：https://www.xmu.edu.cn
 * 福建省智慧城市感知与计算重点实验室：http://scsc.xmu.edu.cn
-
-
 
 
 ## 致谢
