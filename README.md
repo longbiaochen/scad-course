@@ -6,7 +6,7 @@
 * 面向资源的架构：RSS聚合系统设计：https://github.com/longbiaochen/scad/tree/master/resource-oriented
 
 
-## 学生作业
+## 课程作业
 * 第五组：《探：盲人眼中的世界》：https://github.com/Isanaz/LightOfSound_ForSoftwareArch
 * 第三组：颜值识别器（微信小程序）：https://github.com/chenbong/wxminipro_ImgAI
 * 第六组：拆字2048小游戏：https://github.com/whysosis/work
