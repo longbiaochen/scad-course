@@ -3,13 +3,13 @@ package abstract_factory;
 public class TCLFactory implements EFactory {
     @Override
     public Television produceTelevision() {
-	System.out.println("ÕıÔÚÉú²úTCLµçÊÓ...");
+	System.out.println("ç”µè§†æœºå·¥å‚æ­£åœ¨ç”Ÿäº§TCLç”µè§†æœºï¼");
 	return new TCLTelevision();
     }
 
     @Override
     public AirConditioner produceAirConditioner() {
-	System.out.println("ÕıÔÚÉú²úTCL¿Õµ÷...");
+	System.out.println("ç©ºè°ƒå·¥å‚æ­£åœ¨ç”Ÿäº§TCLç©ºè°ƒï¼");
 	return new TCLAirConditioner();
     }
 }

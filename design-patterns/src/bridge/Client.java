@@ -9,6 +9,6 @@ public class Client {
 	pen = (Pen) XMLUtilPen.getBean("pen");
 
 	pen.setColor(color);
-	pen.draw("œ ª®");
+	pen.draw("XMU");
     }
 }

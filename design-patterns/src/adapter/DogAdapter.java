@@ -2,14 +2,14 @@ package adapter;
 
 public class DogAdapter extends Dog implements Robot {
     @Override
-    public void cry() {
-	System.out.print("机器人模仿：");
+    public void beep() {
+	System.out.print("Robot beeping: ");
 	super.wang();
     }
 
     @Override
     public void move() {
-	System.out.print("机器人模仿：");
+	System.out.print("Robot moving: ");
 	super.run();
     }
 }

@@ -2,10 +2,10 @@ package adapter;
 
 public class Dog {
     public void wang() {
-	System.out.println("僩匽匽請ㄐ");
+	System.out.println("wang wang wang");
     }
 
     public void run() {
-	System.out.println("僩辦辦變ㄐ");
+	System.out.println("riding cycle");
     }
 }

@@ -4,7 +4,7 @@ public class Client {
     public static void main(String a[]) {
 	Email email, copyEmail;
 
-	email = new Email("来自QQ邮箱的节日问候！");
+	email = new Email("Across the Great Wall, we can reach every corner in the world.");
 
 	copyEmail = (Email) email.clone();
 
@@ -13,5 +13,8 @@ public class Client {
 
 	System.out.println("email.getTitle()==copyEmail.getTitle()?");
 	System.out.println(email.getTitle() == copyEmail.getTitle());
+
+	email.display();
+	copyEmail.display();
     }
 }

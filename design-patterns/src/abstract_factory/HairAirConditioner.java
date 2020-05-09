@@ -3,6 +3,6 @@ package abstract_factory;
 public class HairAirConditioner implements AirConditioner {
     @Override
     public void changeTemperature() {
-	System.out.println("海尔空调温度改变中......");
+	System.out.println("Change temperature of Haier Air Conditioner...");
     }
 }

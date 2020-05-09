@@ -19,7 +19,7 @@ public class Email implements Cloneable {
     }
 
     public void display() {
-	System.out.println("²é¿´ÓÊ¼þ");
+	System.out.println("Title:");
 	System.out.println(this.title);
     }
 

@@ -3,7 +3,7 @@ package factory_method;
 public class HaierTVFactory implements TVFactory {
     @Override
     public TV produceTV() {
-	System.out.println("º£¶ûµçÊÓ»ú¹¤³§Éú²úº£¶ûµçÊÓ»ú¡£");
+	System.out.println("ç”µè§†æœºå·¥å‚æ­£åœ¨ç”Ÿäº§æµ·å°”ç”µè§†æœºï¼");
 	return new HaierTV();
     }
 }

@@ -10,30 +10,30 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class XMLUtilPen {
-//该方法用于从XML配置文件中提取具体类类名，并返回一个实例对象
+//锟矫凤拷锟斤拷锟斤拷锟节达拷XML锟斤拷锟斤拷锟侥硷拷锟斤拷锟斤拷取锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷一锟斤拷实锟斤拷锟斤拷锟斤拷
     public static Object getBean(String args) {
 	try {
-	    // 创建文档对象
+	    // 锟斤拷锟斤拷锟侥碉拷锟斤拷锟斤拷
 	    DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 	    DocumentBuilder builder = dFactory.newDocumentBuilder();
 	    Document doc;
-	    doc = builder.parse(new File("src/bridge/configPen.xml"));
+	    doc = builder.parse(new File("src/bridge/config.xml"));
 	    NodeList nl = null;
 	    Node classNode = null;
 	    String cName = null;
 	    nl = doc.getElementsByTagName("className");
 
 	    if (args.equals("color")) {
-		// 获取包含类名的文本节点
+		// 锟斤拷取锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟侥憋拷锟节碉拷
 		classNode = nl.item(0).getFirstChild();
 
 	    } else if (args.equals("pen")) {
-		// 获取包含类名的文本节点
+		// 锟斤拷取锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟侥憋拷锟节碉拷
 		classNode = nl.item(1).getFirstChild();
 	    }
 
 	    cName = classNode.getNodeValue();
-	    // 通过类名生成实例对象并将其返回
+	    // 通锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷实锟斤拷锟斤拷锟襟并斤拷锟戒返锟斤拷
 	    Class<?> c = Class.forName("bridge." + cName);
 	    Object obj = c.newInstance();
 	    return obj;

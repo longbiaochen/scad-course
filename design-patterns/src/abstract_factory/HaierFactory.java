@@ -3,13 +3,13 @@ package abstract_factory;
 public class HaierFactory implements EFactory {
     @Override
     public Television produceTelevision() {
-	System.out.println("ÕıÔÚÉú²úº£¶ûµçÊÓ...");
+	System.out.println("ç”µè§†æœºå·¥å‚æ­£åœ¨ç”Ÿäº§æµ·å°”ç”µè§†æœºï¼");
 	return new HaierTelevision();
     }
 
     @Override
     public AirConditioner produceAirConditioner() {
-	System.out.println("ÕıÔÚÉú²úº£¶û¿Õµ÷...");
+	System.out.println("ç©ºè°ƒå·¥å‚æ­£åœ¨ç”Ÿäº§æµ·å°”ç©ºè°ƒï¼");
 	return new HairAirConditioner();
     }
 }

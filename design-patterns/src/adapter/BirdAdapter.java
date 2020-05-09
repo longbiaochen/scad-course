@@ -2,14 +2,14 @@ package adapter;
 
 public class BirdAdapter extends Bird implements Robot {
     @Override
-    public void cry() {
-	System.out.print("»úÆ÷ÈËÄ£·Â£º");
+    public void beep() {
+	System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½Â£ï¿½");
 	super.tweedle();
     }
 
     @Override
     public void move() {
-	System.out.print("»úÆ÷ÈËÄ£·Â£º");
+	System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½Â£ï¿½");
 	super.fly();
     }
 }

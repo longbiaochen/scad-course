@@ -3,7 +3,7 @@ package factory_method;
 public class HisenseTVFactory implements TVFactory {
     @Override
     public TV produceTV() {
-	System.out.println("º£ĞÅµçÊÓ»ú¹¤³§Éú²úº£ĞÅµçÊÓ»ú¡£");
+	System.out.println("ç”µè§†æœºå·¥å‚æ­£åœ¨ç”Ÿäº§æµ·ä¿¡ç”µè§†æœºï¼");
 	return new HisenseTV();
     }
 }

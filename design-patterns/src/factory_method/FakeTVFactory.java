@@ -3,7 +3,7 @@ package factory_method;
 public class FakeTVFactory implements TVFactory {
     @Override
     public TV produceTV() {
-	System.out.println("海尔电视机工厂生产海尔电视机。");
+	System.out.println("鐢佃鏈哄伐鍘傛鍦ㄧ敓浜у亣鐢佃鏈猴紒");
 	return new FakeTV();
     }
 }

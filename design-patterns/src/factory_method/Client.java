@@ -7,7 +7,7 @@ public class Client {
 	    TV tv;
 
 	    factory = (TVFactory) XMLUtil.getBean();
-	    factory = new HaierTVFactory();
+//	    factory = new HaierTVFactory();
 	    tv = factory.produceTV();
 	    tv.play();
 	} catch (Exception e) {
